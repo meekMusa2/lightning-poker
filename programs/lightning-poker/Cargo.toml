@@ -1,0 +1,21 @@
+[package]
+name = "lightning-poker"
+version = "0.1.0"
+description = "Real-time poker with Ephemeral Rollups"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "lightning_poker"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+idl-build = ["anchor-lang/idl-build"]
+
+[dependencies]
+anchor-lang = { version = "0.30.1", features = [] }
+ephemeral-rollups-sdk = { version = "0.3.0", features = ["anchor"] }

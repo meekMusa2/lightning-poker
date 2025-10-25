@@ -1,0 +1,16 @@
+use anchor_lang::prelude::*;
+
+declare_id!("GUnirwFhyv49KKh8S4Tp1ku6mY1F24DhGpUUZJLpTPbQ");
+
+#[program]
+pub mod lightning_poker {
+    use super::*;
+
+    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+        msg!("Greetings from: {:?}", ctx.program_id);
+        Ok(())
+    }
+}
+
+#[derive(Accounts)]
+pub struct Initialize {}
