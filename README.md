@@ -1,6 +1,6 @@
 # ⚡ LightningPoker - Real-Time Onchain Poker
 
-**Built for MagicBlock Side Track at Cypherpunk Hackathon 2024**
+**Built for MagicBlock Side Track at Cypherpunk Hackathon**
 
 A fully onchain Texas Hold'em poker game on Solana, architected for Ephemeral Rollups integration to enable real-time multiplayer gaming.
 
@@ -211,7 +211,7 @@ MIT License - Open source for the community
 ## 👤 Author
 
 **meekmusa**  
-Built for Cypherpunk Hackathon 2024 - MagicBlock Side Track
+Built for Cypherpunk Hackathon - MagicBlock Side Track
 
 ## 🙏 Acknowledgments
 
