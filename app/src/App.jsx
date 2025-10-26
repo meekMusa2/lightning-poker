@@ -3,7 +3,7 @@ import { Connection, PublicKey, clusterApiUrl, Keypair } from '@solana/web3.js';
 import './App.css';
 
 // Your deployed program ID
-const PROGRAM_ID = new PublicKey('45upeRdaE7yoahWBUsYLZhMHBUDnraygHBTGZiaQm4aW');
+const PROGRAM_ID = new PublicKey('Dmvyg2kfrU1or4xoTTpRihYtM5ky45bj9bPTuC93DXfh');
 const GAME_SEED = 'poker_game';
 
 function App() {
