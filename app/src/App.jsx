@@ -143,7 +143,7 @@ function App() {
         </div>
         <div style={styles.statusItem}>
           <span style={styles.statusLabel}>Program:</span>
-          <span style={styles.statusValue}>45upe...m4aW</span>
+          <span style={styles.statusValue}>{PROGRAM_ID.toString().slice(0, 5)}...{PROGRAM_ID.toString().slice(-4)}</span>
         </div>
         <div style={styles.statusItem}>
           <span style={styles.statusLabel}>Status:</span>
